@@ -1,5 +1,6 @@
+import React from 'react';
+import Default from './pages/Default';
 import './styles/App.css';
-import Default from "./pages/Default";
 
 function App() {
   return (

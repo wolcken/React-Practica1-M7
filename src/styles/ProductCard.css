@@ -1,0 +1,35 @@
+.product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-title {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+.product-category, .product-price {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.product-stock {
+    font-weight: bold;
+}
+
+.in-stock {
+    color: #4caf50;
+}
+
+.out-of-stock {
+    color: #f44336;
+}
+

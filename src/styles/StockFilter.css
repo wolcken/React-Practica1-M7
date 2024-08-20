@@ -1,0 +1,14 @@
+.stock-filter {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stock-filter label {
+    font-size: 1rem;
+}
+
+.stock-filter input {
+    margin-right: 10px;
+}
