@@ -1,4 +1,4 @@
-import { SET_NAME_MODULE } from '../defaultTypes';
+import { SET_NAME_MODULE } from './defaultTypes';
 
 export const setNameModule = (nameModule) => {
     return {

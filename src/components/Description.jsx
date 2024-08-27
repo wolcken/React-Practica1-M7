@@ -6,7 +6,7 @@ const Description = () => {
     return (
         <>
             <p>
-                Edit <code>src/App.js</code> and save to reload.
+                Edit <code>App.jsx</code> and save to reload.
             </p>
             <h4>{defaultState.name}</h4>
         </>

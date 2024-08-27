@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Button } from "react-bootstrap";
 
 const Contador = () => {
     const [contador, setContador] = useState(0);
@@ -31,8 +32,8 @@ const Contador = () => {
             <h4>Componente Contador</h4>
             <h5>{contador}</h5>
             <div>
-                <button onClick={handleContador1}>Aumentar</button>
-                <button onClick={handleContador2}>Disminuir</button>
+                <Button variant="primary" onClick={handleContador1}>Aumentar</Button>{' '}
+                <Button variant="success" onClick={handleContador2}>Disminuir</Button>
             </div>
         </>
     );

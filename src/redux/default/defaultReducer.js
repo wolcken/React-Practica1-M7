@@ -1,4 +1,4 @@
-import { SET_NAME_MODULE } from '../types';
+import { SET_NAME_MODULE } from './defaultTypes';
 
 const initialState = {
     name: 'Desarrollo Front End con React v5',
