@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import Layout from '../containers/Layout';
 import '../styles/App.css';
 import Default from '../pages/Default';
@@ -10,7 +10,7 @@ import Form from '../pages/Form';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Layout>
           <Routes>
             <Route path='/' element={<Home />} />
@@ -20,7 +20,7 @@ function App() {
             <Route path='*' element={<NotFound />} />
           </Routes>
         </Layout>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
